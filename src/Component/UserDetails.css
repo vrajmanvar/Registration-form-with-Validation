@@ -1,0 +1,36 @@
+.user-details-form {
+  width: 75%;
+}
+
+#ud {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.table-main {
+  width: 90%;
+  margin: 20px auto 0 auto;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.no-data-message {
+  text-align: center;
+  margin-top: 50px;
+  color: brown;
+}

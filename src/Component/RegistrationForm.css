@@ -1,0 +1,121 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+form {
+  width: 25%;
+}
+
+input {
+  margin-top: 3px;
+  color: white;
+}
+
+.regis-form {
+  min-height: 100vh;
+  background-color: rgb(15, 15, 48);
+  text-align: center;
+  padding-top: 15px;
+}
+
+#rf {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+label {
+  color: white;
+}
+sup {
+  color: red;
+}
+
+.fn-ln {
+  display: flex;
+  text-align: start;
+  width: 90%;
+  margin: 20px;
+  gap: 20px;
+}
+
+.fn-inp,
+.ln-inp {
+  width: 90%;
+  padding: 8px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(52, 52, 91);
+}
+
+.pn {
+  text-align: start;
+  display: grid;
+  width: 90%;
+  margin: 20px;
+}
+.pn-inp {
+  width: 95%;
+  padding: 8px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(52, 52, 91);
+}
+
+.bd-bp {
+  display: flex;
+  text-align: start;
+  width: 90%;
+  margin: 20px;
+  gap: 20px;
+}
+.bd-inp,
+.bp-inp {
+  width: 90%;
+  padding: 8px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(52, 52, 91);
+}
+.bd-inp {
+  color: white;
+}
+
+.bp-inp {
+  height: 38px;
+}
+
+.address {
+  width: 90%;
+  display: grid;
+  margin: 20px;
+  gap: 5px;
+  text-align: start;
+}
+
+.add1-inp,
+.add2-inp {
+  background-color: rgb(52, 52, 91);
+  border-radius: 5px;
+  color: white;
+}
+
+.pp {
+  width: 90%;
+  margin: 20px;
+  text-align: start;
+}
+
+.pp-inp {
+  color: white;
+}
+
+.btn-info {
+  width: 20%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-error {
+  color: red;
+}
